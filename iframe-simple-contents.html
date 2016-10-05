@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>iframe Example</title>
+    <script type="text/javascript">
+      function doSomething() {
+        alert("You clicked the button! This frame's title is " + document.title);
+      }
+    </script>
+  </head>
+  <body>
+    <button id="goButton" onclick="doSomething()">Do something!</button>
+  </body>
+
+  <p>
+    <iframe src="https://mdn-samples.mozilla.org/snippets/html/iframe-simple-contents.html" width="400" height="300">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+  </p>
+</html>
