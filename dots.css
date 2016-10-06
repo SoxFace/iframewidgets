@@ -1,22 +1,10 @@
-#container {
-  display: block;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
+body {
+    border: 0px;
+    margin: 0px;
+    background: #CCCCCC;
 }
 
-#myCanvas {
-  z-index: 1;
-  display: block;
-  position: relative;
-  left: 0px;
-  top: 0px;
-  background: #FFF;
-}
-
-#canvasdots {
+#canvascontainer {
     display: block;
     position: absolute;
     left: 0px;
