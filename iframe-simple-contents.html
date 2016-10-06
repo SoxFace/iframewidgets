@@ -1,20 +1,22 @@
-<!doctype html>
-<html>
-  <head>
-    <title>iframe Example</title>
-    <script type="text/javascript">
-      function doSomething() {
-        alert("You clicked the button! This frame's title is " + document.title);
-      }
-    </script>
-  </head>
-  <body>
-    <button id="goButton" onclick="doSomething()">Do something!</button>
-  </body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>iframe example</title>
+  <script type="text/javascript">
+    function doSomething() {
+      alert("You clicked the button! This frame's title is " + document.title);
+    }
+  </script>
+</head>
+<body>
+  <button id="goButton" onclick="doSomething()">Do something!</button>
   <p>
     <iframe src="https://mdn-samples.mozilla.org/snippets/html/iframe-simple-contents.html" width="400" height="300">
     <p>Your browser does not support iframes.</p>
   </iframe>
   </p>
+</body>
 </html>
